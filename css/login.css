@@ -1,0 +1,63 @@
+body {
+    background: url('https://source.unsplash.com/1600x900/?gold,jewelry') no-repeat center center/cover;
+    display: flex;
+    padding-top: 50px;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.login-container {
+    margin-top: 100px;
+    background: rgba(0, 0, 0, 0.8);
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    color: rgb(218, 165, 32);
+    box-shadow: 0 0 10px gold;
+    width: 350px;
+
+}
+.login-container h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+.input-group {
+    margin-bottom: 15px;
+    position: relative;
+}
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid gold;
+    border-radius: 5px;
+    outline: none;
+    font-size: 16px;
+}
+.input-group i {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: gold;
+    cursor: pointer;
+}
+.error {
+    color: red;
+    font-size: 14px;
+}
+.btn {
+    background: #e4b613;
+    color: black;
+    border: none;
+    padding: 10px 15px;
+    width: 100%;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.btn:hover {
+    background: darkgoldenrod;
+}

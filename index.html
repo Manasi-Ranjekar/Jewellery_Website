@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LILLANI JEWELLERS</title>
+  
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="lightbox.css" />
+    <link rel="stylesheet" href="./css/Slider.min.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar">
+      <ul class="sidebar">
+        <li onclick="hideSidebar()">
+          <a href="#"><svg xmlns="http://www.w3.org/2000/svg"height="26"viewBox="0 -960 960 960"width="24">
+              <path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg>
+          </a>
+        </li>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="Products.html">Products</a></li>
+        <li><a href="Cart.html">Cart</a></li>
+        <li><a href="login.html">Login</a></li>
+
+      </div>
+      </ul>
+      <ul>
+        <li>
+          <a href="index.html"><img src="./images/logo.png" alt="" width="50px"/></a>
+        </li>
+        <li class="hideOnMobile"><a href="index.html">Home</a></li>
+        <li class="hideOnMobile"><a href="Products.html">Products</a></li>
+        <li class="hideOnMobile"><a href="Cart.html">Cart</a></li>
+        <li class="hideOnMobile"><a href="login.html">Login</a></li>
+
+        
+
+        <li class="menu-button" onclick="showSidebar()">
+          <a href="#"><svg xmlns="http://www.w3.org/2000/svg"height="26"viewBox="0 -960 960 960"width="26">
+              <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg>
+          </a>
+        </li>
+      </ul>
+    </nav>
+
+    <!-- Hero Slider -->
+    <div class="container">
+      <a href="index.html">
+        <!-- Slider main container -->
+        <div class="swiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="./images/i2.png" alt="" /></div>
+            <div class="swiper-slide"><img src="./images/i3.png" alt="" /></div>
+            <div class="swiper-slide"><img src="./images/i4.png" alt="" /></div>
+          </div>
+          <!-- Pagination -->
+          <div class="swiper-pagination"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+        </div>
+      </a>
+    </div>  
+    <!-- Grid -->
+    <div class="title_one">
+      <h3 class="headline_one">Timeless Treasures</h3>
+    </div>
+    <div class="grid">
+      <div class="column">
+        <img src="./images/g1.jpg" />
+      </div>
+      <div class="column">
+        <img src="./images/g2.webp" />
+        <img src="./images/g3.jpg" />
+      </div>
+    </div>
+
+    <div class="title_one">
+      <h3 class="headline_one">Gemstone Gallery</h3>
+    </div>
+    <div class="container-gallery">
+      <div class="gallery">
+        <a href="./images/gg1.jpg" data-lightbox="models" data-title="Necklace">
+          <img src="./images/gg1.jpg" alt="" />
+        </a>
+        <a href="./images/gg2.jpg" data-lightbox="models" data-title="Necklace Set">
+          <img src="./images/gg2.jpg" alt="" />
+        </a>
+        <a href="./images/gg3.jpg" data-lightbox="models" data-title="Necklace">
+          <img src="./images/gg3.jpg" alt="" />
+        </a>
+        <a href="./images/gg4.jpg" data-lightbox="models" data-title="Necklace">
+          <img src="./images/gg4.jpg" alt="" />
+        </a>
+        <a href="./images/gg5.jpg" data-lightbox="models" data-title="Necklace">
+          <img src="./images/gg5.jpg" alt="" />
+        </a>
+        <a href="./images/gg6.jpg" data-lightbox="models" data-title="Bangles">
+          <img src="./images/gg6.jpg" alt="" />
+        </a>
+      </div>
+    </div>
+
+    <div class="title_one">
+      <h3 class="headline_one">Glamour in Motion</h3>
+    </div>
+    <div class="video">
+      <video autoplay loop muted plays-inline class="back-video">
+        <source src="./images/vi.mp4" type="video/mp4" />
+      </video>
+    </div>
+    <footer>
+      <div class="container">
+        <div class="sec">
+          <h2>About Us</h2>
+          <p>
+            Welcome to Lillani Jewellers, where we craft elegance and beauty 
+            into every piece of jewelry. With a passion for exquisite design and 
+            unparalleled craftsmanship, we have been adorning the world with timeless 
+            treasures for 10+ years. Our journey is a reflection of 
+            dedication to artistry, quality, and sophistication. Explore our collection
+            and discover jewelry that tells stories, creates memories, and celebrates 
+            your unique style.
+          </p>
+          <ul class="sci">
+            <li>
+              <a href="https://www.instagram.com"><i class="fa-brands fa-instagram"></i></a>
+            </li>
+            <li>
+              <a href="https://twitter.com/"><i class="fa-brands fa-twitter"></i></a>
+            </li>
+            <li>
+              <a href="https://www.facebook.com"><i class="fa-brands fa-facebook"></i></a>
+            </li>
+            <li>
+              <a href="https://www.youtube.com"><i class="fa-brands fa-youtube"></i></a>
+            </li>
+          </ul>
+        </div>
+        <div class="sec quicklinks">
+          <h2>Support</h2>
+          <ul>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Help</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+        <div class="sec quicklinks">
+          <h2>Shop</h2>
+          <ul>
+            <li><a href="#">DIAMOND</a></li>
+            <li><a href="#">GOLD JEWELLERY</a></li>
+            <li><a href="#">DIGITAL GOLD</a></li>
+            <li><a href="#">GEMSTONES</a></li>
+          </ul>
+        </div>
+        <div class="sec contact">
+          <h2>Contact Us</h2>
+          <ul class="info">
+            <li>
+              <span><i class="fa-solid fa-phone"></i></span>
+              <p><a href="tel: +91 909882192">+91 1234567801</a></p>
+            </li>
+            <li>
+              <span><i class="fa-solid fa-envelope"></i></span>
+              <p>
+                <a href="mailto: lillanijewellers@gmail.com"
+                  >lillanijewellers@gmail.com</a
+                >
+              </p>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-2">
+        <h3>NEWS LETTER</h3>
+        <form>
+          <input type="email" placeholder="Enter Your Email Address" required />
+          <button type="submit">SUBMIT</button>
+        </form>
+      </div>
+    </footer>
+    <div class="copyrightText">
+      <p>Copyright 2023. All Rights Reserved.</p>
+    </div>
+ 
+    <!-- Scripts-->
+    <script src="./js/Slider.min.js"></script>
+    <script src="https://kit.fontawesome.com/8c8aa2002d.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="lightbox-plus-jquery.js"></script>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
